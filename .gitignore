@@ -1,0 +1,20 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform lock file
+terraform.lock.hcl
+
+# Ignore Terraform local execution directory
+.terraform/
+
+# Ignore sensitive files (if applicable)
+*.pem
+*.key
+
+# Ignore Terraform variable file
+terraform.tfvars
+
+# Ignore OS-specific files (if applicable)
+*.DS_Store
+Thumbs.db
